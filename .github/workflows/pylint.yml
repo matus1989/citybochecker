@@ -23,4 +23,4 @@ jobs:
         pip install r req.txt
     - name: Run
       run: |
-        python ./cityboxantwerpchecker.py ${{secrets.SENDER}} ${{secret.RECIVER}} ${{secret.PASSWORD}} 2025-02-25 2025-03-03
+        python ./cityboxantwerpchecker.py ${{secrets.SENDER}} ${{secrets.RECIVER}} ${{secrets.PASSWORD}} 2025-02-25 2025-03-03
