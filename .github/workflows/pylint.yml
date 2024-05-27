@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install r req.txt
+        pip install -r req.txt
     - name: Run
       run: |
         python ./cityboxantwerpchecker.py ${{secrets.SENDER}} ${{secrets.RECIVER}} ${{secrets.PASSWORD}} 2025-02-25 2025-03-03
